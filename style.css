@@ -1,0 +1,91 @@
+body {
+    font-family: 'Lobster', cursive;
+    margin: 0%;
+}
+
+.Badsha-color {
+    color: blueviolet;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(blueviolet, rgb(43, 2, 80));
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: 700;
+
+}
+
+.banner {
+    background-image: url(pic/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.banner2 {
+    background-image: url(pic/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner3 {
+    background-image: url(pic/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.banner4 {
+    background-image: url(pic/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#experience-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, rgb(240, 192, 255));
+    border-image-slice: 1;
+}
+
+#border-img {
+    border-left: 7px solid;
+    border-image: linear-gradient(blueviolet, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    padding: 60px;
+}
+
+h3 {
+    color: tomato;
+}
